@@ -1,9 +1,9 @@
-import AccountList from '../components/account/list/index';
+import Counter from '../components/counter';
 
 const Index = () => {
   return (
     <>
-      <AccountList />
+      <Counter />
     </>
   );
 };

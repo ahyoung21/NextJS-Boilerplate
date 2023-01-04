@@ -2,11 +2,11 @@
   "presets": ["next/babel"],
   "plugins": [
     [
-      "styled-components",
+      "babel-plugin-styled-components",
       {
-        "ssr": true,
+        "fileName": true,
         "displayName": true,
-        "preprocess": false
+        "pure": true
       }
     ]
   ]
